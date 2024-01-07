@@ -40,7 +40,7 @@ const MongoDBStore = require('connect-mongo');
 
 
 
-const dbUrl=process.env.DATABASE || "mongodb://127.0.0.1:27017/yelp-camp"
+const dbUrl=process.env.DATABASE
 mongoose.connect(dbUrl);
 const db=mongoose.connection;
 db.on("error",console.error.bind(console,"Connection Error"));
