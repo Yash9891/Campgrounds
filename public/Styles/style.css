@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(30, 30, 33);
+    color: white;
+}
+.reg-log{
+    border:none;
+
+}
+.button{
+
+    background-color: rgb(4, 167, 176);
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 0.2rem;
+    border: none;
+}
+.indexul{
+    padding: 0;
+ 
+ 
+}
+.photo{
+    color: white;
+    background-color: rgb(52, 52, 52);
+}
+.buttonred{
+    background-color: #12ded0;
+    color: rgb(52, 52, 52);
+    font-weight: 700;
+    border-radius: 0.2rem;
+    border: none;
+}
+.buttondanger{
+    background-color: #e14732fc;
+    color: rgb(252, 249, 249);
+    font-weight: 700;
+    border-radius: 0.2rem;
+    border: none;
+}
+.campgroundheading{
+    color: #00d2e9;
+    font-size: 3rem;
+    font-weight: 800;
+}
+@media only screen and (max-width: 550px){
+    .campgroundheading{
+   
+    font-size: 2rem;
+    
+}
+
+}
+@media only screen and (max-width: 550px){
+    
+.showki{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.shokiimg{
+    width: 90%;
+}
+}
+.main{
+    background-image: url("https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 180px;
+    position: relative;
+    padding-top: 25px;
+    
+}
+.main .box{
+    height: 180px;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.main h1{
+    
+    position: relative;
+}
+.main div{
+    position: relative;
+}
+.buttonredi{
+    background-color: rgba(89, 89, 89, 0.698);
+    color: rgb(240, 229, 229);
+    font-weight: 700;
+    border-radius: 0.2rem;
+    border: none;
+}
+.buttonredi:hover{
+    background-color: rgba(124, 231, 241, 0.671);
+    color: rgb(0, 0, 0);
+  
+}

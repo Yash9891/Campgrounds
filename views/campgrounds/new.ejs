@@ -1,8 +1,10 @@
 <% layout('layouts/boilerplate')%>
+<link rel="stylesheet" href="/Styles/style.css">
+<div class="row newcard">
+    <h1 class="text-center campgroundheading">New Campground</h1>
+    <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4 ">
 
-<div class="row">
-    <h1 class="text-center">New Campground</h1>
-    <div class="col-6 offset-3">
+
         <form  action="/campgrounds" method="POST" novalidate class="validated-form" enctype="multipart/form-data">
             <div class="mb-3">
                 <label class="form-label" for="title">Title</label>
@@ -56,7 +58,7 @@
             </div>
         </form>
         <div class="mb-3">
-        <a class=" btn btn-outline-danger" href="/campgrounds">All Campgrounds</a>
+        <a class=" btn btn-outline-danger buttonred" href="/campgrounds">All Campgrounds</a>
     </div>
     </div>
 </div>
