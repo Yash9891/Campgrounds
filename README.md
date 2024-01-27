@@ -1,8 +1,8 @@
 # Megacampy - A Full Stack Project 
 
-MegaCampy is a campground website where you can add, delete, edit and give reviews to the Campround.
+MegaCampy is a campground website where you can add, delete, edit and give reviews to the Campground.
 
-You can also create your own campround and set the price of your campground in our MegaCampy website.
+You can also create your own campgrounds and set price of your campground in our MegaCampy website.
 
 In this website I used Authentication , Authourization, Passport, Cloudinary  to store images, MongoDb to store the user information.
 
