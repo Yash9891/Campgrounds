@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.619), rgba(0, 0, 0, 0.664)),
-    url("images/li.png");
+    url("images/most.png");
     background-size: cover;
     background-position: center;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
@@ -15,13 +15,13 @@ body {
 .nav-link {
     padding: 0.25rem 0;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.909);
+    color: rgba(162, 171, 255, 0.909);
     margin-left: 1rem;
     border-bottom: 0.25rem solid transparent;
 }
 
 .nav-link:hover{
-    color: rgba(255,255,255,0.5);
+    color: rgb(255, 255, 255);
     
 }
 
@@ -32,19 +32,23 @@ body {
     text-shadow: none;
 }
 .megah{
-    color: rgb(0, 183, 255);
+    color: rgb(146, 66, 250);
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
 }
 .megap{
+    font-size: 1.5rem;
    
     font-weight: 700;
+    color:  rgba(182, 189, 252, 0.909);
 
 }
 .bio{
     background-color:rgba(0, 0, 0, 0.519);
     color: rgb(26, 25, 34);
-    padding: 3px 6px;
-    border-radius: 0.2rem;
+    padding: 4px 11px;
+    border-radius: 1.5rem;
+  
     
 }
